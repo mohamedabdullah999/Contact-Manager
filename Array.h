@@ -10,7 +10,6 @@ class Array {
 private:
     int size;
     T* Arr;
-    //===================================================
     int capacity;
     void resize(size_t newcapacity) {
         T* newptr = new T[newcapacity]; // alocate new storage in memory
